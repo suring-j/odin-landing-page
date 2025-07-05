@@ -3,10 +3,159 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 360px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.nav-links a {
+    margin-left: 24px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 360px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero-text {
+    max-width: 50%;
+    text-wrap: wrap;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+.hero-text h1, p {
+    margin-bottom: 12px;
+}
+
+.hero-text button {
+    border-radius: 6px;
+    background-color: aliceblue;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.placeholder {
+    background-color: lightslategray;
+    width: 500px;
+    height: 240px;
+    text-align: center;
+    line-height: 240px;
+}
+
+/* info */
+
+.info-section {
+    padding: 32px 360px;
+    padding-bottom: 100px;
+}
+
+.info-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.info-card {
+    border: 1px solid blueviolet;
+    border-radius: 6px;
+    width: 160px;
+    height: 100px;
+    margin-bottom: 12px;
+}
+
+.info-grid {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* quote */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 72px 360px;
+}
+
+.quote-section blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 250;
+    color: #1f2937;
+}
+
+.quote-section p {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* cta */
+
+.cta-section {
+    padding: 72px 360px;
+    color: white;
+}
+
+.cta-card {
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 36px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-card button {
+    padding: 10px 32px;
+    border-radius: 6px;
+    border: 1px solid white;
+    background-color: #3882f6;
+    color: white;
+}
+
+/* footer */
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    height: 90px;
+    line-height: 90px;
 }

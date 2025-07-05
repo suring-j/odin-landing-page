@@ -14,18 +14,17 @@ header {
     align-items: center;
     padding: 24px 360px;
     background-color: #1f2937;
-    color: white;
 }
 
 .logo {
     font-size: 24px;
-    font-weight: 900;
+    color: #f9faf8;
 }
 
 .nav-links a {
     margin-left: 24px;
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
     cursor: pointer;
 }
 
@@ -36,7 +35,7 @@ header {
     justify-content: space-between;
     padding: 100px 360px;
     background-color: #1f2937;
-    color: white;
+    color: #f9faf8;
 }
 
 .hero-text {
@@ -58,9 +57,11 @@ header {
 
 .hero-text button {
     border-radius: 6px;
-    background-color: aliceblue;
-    padding: 12px 24px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 10px 30px;
     cursor: pointer;
+    border: transparent;
 }
 
 .placeholder {
@@ -81,13 +82,15 @@ header {
 .info-section h2 {
     text-align: center;
     margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .info-card {
-    border: 1px solid blueviolet;
+    border: 1px solid #3882f6;
     border-radius: 6px;
     width: 160px;
-    height: 100px;
+    height: 140px;
     margin-bottom: 12px;
 }
 
@@ -110,7 +113,7 @@ header {
 
 .quote-section {
     background-color: #e5e7eb;
-    padding: 72px 360px;
+    padding: 72px 400px;
 }
 
 .quote-section blockquote {
@@ -145,7 +148,7 @@ header {
 .cta-card button {
     padding: 10px 32px;
     border-radius: 6px;
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: #3882f6;
     color: white;
 }
